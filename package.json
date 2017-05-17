@@ -1,6 +1,6 @@
 {
   "name": "csvfromurltojson",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a module to help you get csv file from url and translate it to json",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,6 @@
     "co": "^4.6.0",
     "csvtojson": "^1.1.5",
     "encoding": "^0.1.12",
-    "request": "^2.81.0",
     "thunkify-wrap": "^1.0.4"
   }
 }
