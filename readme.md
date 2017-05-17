@@ -3,15 +3,14 @@
 ### description
 
 根据URL获取CSV文件并转为JSON数据，目前支持的CSV文件格式为UTF-8，GBK，ANSI
-
 ### simple demo
 ```js
 'use strict';
 
 let co = require('co');
 let Csvfromurltojson = require('./index');
-let url = 'https://www.abc.com/xxxxxxxxx';
-let headers = ['aa', 'bb', 'cc', 'dd', 'ee'];
+let url = 'https://www.abc.com/xxxxxxxxx';     //请输入正确的URL
+let headers = ['aa', 'bb', 'cc', 'dd', 'ee'];  // 请输入正确的文件头
 
 co(function* () {
   let csvfromurltojson = new Csvfromurltojson();
