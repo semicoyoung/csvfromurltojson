@@ -18,6 +18,13 @@
       "email": "semicoyoung@gmail.com"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semicoyoung/csvfromurltojson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/semicoyoung/csvfromurltojson/issues"
+  },
   "license": "ISC",
   "dependencies": {
     "co": "^4.6.0",
