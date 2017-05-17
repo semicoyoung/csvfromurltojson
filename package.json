@@ -12,6 +12,12 @@
     "url"
   ],
   "author": "semicoyoung@gmail.com",
+  "maintainers": [
+    {
+      "name": "semicoyoung",
+      "email": "semicoyoung@gmail.com"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
     "co": "^4.6.0",
