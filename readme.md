@@ -28,7 +28,9 @@ co(function* () {
 ### API
 
 * translate
+
       * url CSV文件的URL
+
       * headers CSV文件头，请注意此参数一定要与CSV文件的文件头相同
 
 ### Run Test (请在test.js文件中传入正确的URL和文件头之后再跑test)
